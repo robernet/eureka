@@ -1,0 +1,119 @@
+div#homeDIV {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	height: 138px;
+	padding: 0 0 10px 10px;
+	display: block;
+	z-index: 1010;
+}
+div#canvasDIV {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 90%;
+	margin: 5px auto;
+	overflow-y: auto;
+	display: none;
+	background-color: #fff;
+	z-index: 999;
+}
+div#canvasContentDIV {
+	width: 100%;
+	height: 100%;
+}
+div#canvasCloseDIV {
+	position: relative;
+	top: 0px;
+	right: 0px;
+	width: 80px;
+	height: 80px;
+}
+div#menuAreaDIV {
+	position: absolute;
+	top: 150px;
+	left: 50px;
+	width: 85%;
+	height: 75%;
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+	overflow-y: auto;
+	display: hidden;
+	z-index: 1000;
+}
+div#menuAreaDIV ul {
+	margin: 0;
+	padding: 0;
+}
+div#bannerAreaDIV {
+	position: absolute;
+	top: 10px;
+	left: 0;
+	margin: 0 auto;
+	width: 100%;
+	height: 115px;
+	overflow-x: auto;
+	text-align: center;
+	-webkit-overflow-scrolling: touch;
+	display: block;
+	z-index: 1011;
+}
+div#backgroundDIV {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	display: block;
+	z-index: 1;
+}
+
+div.headerDIV {
+	background-color: #000;
+	color: #fff;
+	text-align: right;
+	padding: 40px;
+	width: auto;
+	font-size: 32px;
+}
+
+div.footerDIV {
+	background-color: #000;
+	color: #fff;
+	text-align: right;
+	padding: 20px;
+	width: auto;
+}
+
+#menuSort li {
+	position: relative;
+	width: 200px;
+	height: 250px;
+	margin: 20px;
+	padding: 0;
+	float: left;
+	text-align: center;
+	overflow: hidden;
+}
+
+#menuSort p.nombreItem {
+	position: relative;
+	text-align: center;
+	font-size: large;
+	color: #000;
+}
+
+div.constructionDIV {
+	font-family: 'Cabin';
+	font-weight: 500;
+	color: #000;
+	text-shadow: 0px 1px #fff, 0px -1px #97A63A;
+	text-align: center;
+	font-size: 14px;
+}
+
+div.constructionDIV p {
+	padding: 10px;
+}
