@@ -1,10 +1,12 @@
 var menuHide = function() {
         menuSort.Reset();
         $("menuAreaDIV").fade("out");
+	$("accessAreaDIV").fade("out");
         $("bannerAreaDIV").setStyle("display", "none");
 };
 var menuShow = function() {
         $("menuAreaDIV").fade("in");
+	$("accessAreaDIV").fade("in");
         $("bannerAreaDIV").setStyle("display", "block");
         menuSort.Full();
 };
@@ -35,6 +37,7 @@ Object.append(menuSort, {
 			onComplete: function() {
 				menuSort.calculate();
 				activateButtons();
+				accessApp();
 			}
 		}).send();
 	},

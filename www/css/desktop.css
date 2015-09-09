@@ -59,6 +59,27 @@ div#bannerAreaDIV {
 	display: block;
 	z-index: 1011;
 }
+div#accessAreaDIV {
+	position: absolute;
+	top: 125px;
+	left: 0;
+	margin: 0 auto;
+	width: 100%;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+	display: block;
+	background-color: #000;
+	color: #fff;
+	text-align: right;
+	vertical-align: middle;
+	padding: 10px;
+	font-size: 16px;
+	z-index: 1012;
+}
+div#loginFormDIV {
+	padding: 10px;
+	display: none;
+}
 div#backgroundDIV {
 	position: absolute;
 	top: 0;
@@ -101,7 +122,7 @@ div.footerDIV {
 #menuSort p.nombreItem {
 	position: relative;
 	text-align: center;
-	font-size: large;
+	font-size: 24px;
 	color: #000;
 }
 

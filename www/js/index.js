@@ -44,6 +44,7 @@ var app = {
     // deviceready Event Handler
     //
     onDeviceReady: function() {
+	AccessApp.initialize();
 //	Banner.initialize();
         menuSort.initialize();
         Desktop.initialize();

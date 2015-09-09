@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="mx.com.prontatres.catalogo" version="2.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="zone.robernet.eureka" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <preference name="loglevel" value="DEBUG" />
     <feature name="Whitelist">
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
     <allow-intent href="market:*" />
-    <name>Pronta Tres</name>
+    <name>Eureka by RoberNET</name>
     <description>
-        Catálogo de Productos e información general sobre renta de equipos.
+        Analisis de puntos de equilibrio y ganancias.
     </description>
-    <author email="atencionaclientes@prontatres.com.mx" href="http://www.prontatres.com.mx">
-        PhoneGap Team
+    <author email="robernetzone@gmail.com" href="http://www.robernet.zone">
+        RoberNET Action Team
     </author>
     <content src="index.html" />
     <preference name="permissions" value="none" />
