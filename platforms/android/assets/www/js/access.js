@@ -39,7 +39,7 @@ Object.append(AccessApp, {
 	},
 	checkTimeout: function(){
 		if ($('loginDIV')) {
-			alert("Sesión Finalizada.\n\nFavor de volver a registrarse.");
+			alert("Acceso no Válido.\n\nFavor de volver a intentarlo.");
 			AccessApp.initialize();
 		}
 	},
