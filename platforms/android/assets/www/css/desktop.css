@@ -77,6 +77,7 @@ div#accessAreaDIV {
 	z-index: 1012;
 }
 div#loginFormDIV {
+	padding: 10px;
 	display: none;
 }
 div#backgroundDIV {
